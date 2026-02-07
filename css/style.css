@@ -960,6 +960,10 @@ p {
     min-height: 250px;
 }
 
+.attraction-item h4 {
+	color: white;
+}
+
 /* Dark overlay for better text readability */
 .attraction-item::before {
     content: '';
