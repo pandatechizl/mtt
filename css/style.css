@@ -976,17 +976,6 @@ p {
     z-index: 1;
 }
 
-.attraction-item-service::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-/*     background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)); */
-    z-index: 1;
-}
-
 /* Ensure text is above the overlay */
 .attraction-item * {
     position: relative;
@@ -995,60 +984,53 @@ p {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.attraction-item-service * {
-    position: relative;
-    z-index: 2;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
 /* Individual attraction backgrounds */
-.attraction-item:nth-child(1) {
+.attraction-item.uss {
     /* Universal Studios Singapore */
     background-image: url('https://images.unsplash.com/photo-1696851158152-139dfc3801d3?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(2) {
+.attraction-item.si {
     /* Sentosa Island */
     background-image: url('https://images.unsplash.com/photo-1662385834577-0c6628d57eab?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(3) {
+.attraction-item.sf {
     /* Singapore Flyer */
     background-image: url('https://images.unsplash.com/photo-1559633462-d82e21578552?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(4) {
+.attraction-item.sz {
     /* Singapore Zoo */
     background-image: url('https://images.unsplash.com/photo-1579235477863-03d45acd30d3?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(5) {
+.attraction-item.ns {
     /* Night Safari */
     background-image: url('https://images.unsplash.com/photo-1535679706075-20c8cf734c95?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(6) {
+.attraction-item.rw {
     /* River Wonders */
     background-image: url('https://images.unsplash.com/photo-1554068463-bf60b6ca8d97?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(7) {
+.attraction-item.bp {
     /* Bird Paradise */
     background-image: url('https://images.unsplash.com/photo-1718744231710-04aed11da6bb?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(8) {
+.attraction-item.rc {
     /* River Cruise */
     background-image: url('https://images.unsplash.com/photo-1673082401327-1ce8452496a3?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(9) {
+.attraction-item.dt {
     /* Duck Tour */
     background-image: url('https://images.unsplash.com/photo-1589903769152-90c92aeddb98?q=80&w=270&h=162&auto=format&fit=crop');
 }
 
-.attraction-item:nth-child(10) {
+.attraction-item.ct {
     /* Hop-On Hop-Off City Tour */
     background-image: url('https://images.unsplash.com/photo-1646625573908-82208b03cfa4?q=80&w=270&h=162&auto=format&fit=crop');
 }
@@ -1060,14 +1042,5 @@ p {
 }
 
 .attraction-item:hover::before {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
-}
-
-.attraction-item-service:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
-.attraction-item-service:hover::before {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
 }
