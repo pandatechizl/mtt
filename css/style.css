@@ -976,8 +976,26 @@ p {
     z-index: 1;
 }
 
+.attraction-item-service::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+/*     background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)); */
+    z-index: 1;
+}
+
 /* Ensure text is above the overlay */
 .attraction-item * {
+    position: relative;
+    z-index: 2;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.attraction-item-service * {
     position: relative;
     z-index: 2;
     color: #ffffff;
@@ -1042,5 +1060,14 @@ p {
 }
 
 .attraction-item:hover::before {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
+}
+
+.attraction-item-service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.attraction-item-service:hover::before {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4));
 }
