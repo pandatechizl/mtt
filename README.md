@@ -18,7 +18,7 @@ Professional static informative website for **Magnificent Travels & Tours Singap
 - **Address:** 54 Maude Road, #03-01, Townshend Building, Singapore 208346
 - **Phone:** +65 8713 2669 / +65 8424 2669
 - **Email:** magnificent.travelsntsg@gmail.com
-- **Website:** www.magnificenttravels.sg
+- **Website:** www.magnificenttravelsntsg.com
 
 ---
 
