@@ -1028,7 +1028,7 @@ p {
 
 .attraction-item.dt {
     /* Duck Tour */
-    background-image: url('/mtt/images/duck_tour.png');
+    background-image: url('/images/duck_tour.png');
     background-size: 320px;
 /*     background-image: url('https://images.unsplash.com/photo-1589903769152-90c92aeddb98?q=80&w=270&h=162&auto=format&fit=crop'); */
 }
@@ -1040,17 +1040,17 @@ p {
 
 .attraction-item.cr {
     /* Car Rental Service */
-    background-image: url('/mtt/images/car_rental.png');
+    background-image: url('/images/car_rental.png');
 }
 
 .attraction-item.cs {
     /* Coach Service */
-    background-image: url('/mtt/images/coach.png');
+    background-image: url('/images/coach.png');
 }
 
 .attraction-item.lg {
     /* Licensed Guide */
-    background-image: url('/mtt/images/licensed_guide.jpg');
+    background-image: url('/images/licensed_guide.jpg');
 }
 /* Hover effect for attractions */
 /* .attraction-item:hover { */
